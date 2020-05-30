@@ -1,0 +1,76 @@
+body {
+    background: #1F232F;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* .topsect{
+    display: flex;
+    flex-wrap: nowrap;
+} */
+
+.topsect h1 {
+    color: white;
+}
+
+.topsect #grey {
+    color: #ccc;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card {
+    padding: 10px;
+    background: #252C43;
+    text-align: center;
+    width: 20%;
+}
+
+.border1{
+    border-top: 2px solid #1B6CB6;
+}
+
+.border2{
+    border-top: 2px solid #1B6CB6;
+}
+
+.border3{
+    border-top: 2px solid #1B6CB6;
+}
+
+.border4{
+    border-top: 2px solid #1B6CB6;
+}
+
+.image {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.name {
+    color: #ccc;
+    display: inline-block;
+}
+
+.follow {
+    color: white;
+}
+
+.foll {
+    color: #ccc;
+}
+
+.today {
+    color: #2E6D6A;
+}
+
+#red {
+    color: maroon;
+}
