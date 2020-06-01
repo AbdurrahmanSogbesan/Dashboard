@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    padding: 20px;
+    padding: 20px 135px;
 }
 
 .topsect {
@@ -86,15 +86,22 @@ body {
 }
 
 .cardbtm {
-    padding: 8px;
+    border-radius: 4px;
+    padding: 25px;
     background: #252C43;
-    text-align: center;
+    /* text-align: center; */
     width: 20%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 15px;
+}
+.cardbtm .inner div {
+    padding: 10px 0;
+}
+.inner .h1{
+    color: white;
 }
 
 .views {
